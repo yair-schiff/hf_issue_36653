@@ -1,5 +1,6 @@
 import torch
 
+
 class ResBlock(torch.nn.Module):
 
     def __init__(self, dim: int):

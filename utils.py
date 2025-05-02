@@ -1,8 +1,8 @@
-from transformers import PreTrainedModel
+import transformers
 
 
 def push_my_model_to_hub(
-    model: PreTrainedModel,
+    model: transformers.PreTrainedModel,
     repo_id: str = "yairschiff/hf-issue-36653",
     private: bool = False,
     commit_message: str = "Initial commit",

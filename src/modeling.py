@@ -25,6 +25,7 @@ class MyModelConfig(transformers.PretrainedConfig):
         self.hidden_dim = hidden_dim
         self.output_dim = output_dim
 
+
 class MyModel(transformers.PreTrainedModel):
 
     config_class = MyModelConfig
